@@ -4,10 +4,10 @@ import random
 
 app = Flask(__name__)
 
-# Генерация случайных данных для графика
+# Генерация данных для графика
 def generate_data():
     x = list(range(10))
-    y = [random.randint(1, 10) for _ in range(10)]
+    y = list(range(10))
     return x, y
 
 # Главная страница
